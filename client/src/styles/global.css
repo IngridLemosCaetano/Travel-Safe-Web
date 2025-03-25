@@ -8,14 +8,17 @@
 :root{
     --cor-lavender-pink: #F2A8D1;
     --cor-blush: #E4698D;
-    --cor-dark-magenta: #8C2C86;
+    --cor-tertiaty: #8C2C86; /* dark-magenta */
     --cor-eminence: #60337E;
-    --cor-delf-blue: #343A75;
+    --cor-secondary: #343A75; /* delf-blue */
     --cor-ultra-violet: #5C629C;
-    --cor-honolulu-blue: #1074A8;
+    --cor-primary: #1074A8; /* honolulu-blue */
     --cor-moondtone: #4FADC6;
     --cor-tiffany-blue: #7DDDDC;
     --cor-background: #CBE7EE;
+
+    --cor-neutral-white: #FFFFFF;
+    --cor-neutral-black: #000000;
 
     --font-primary: "Lemon", serif;    
     --font-secondary: "Montserrat", sans-serif;

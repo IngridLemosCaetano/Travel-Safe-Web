@@ -1,0 +1,146 @@
+@import url(./global.css);
+
+body{
+    background-color: var(--cor-background);    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 98px;
+}
+
+header img{
+    padding-top: 25px;
+    width: 100px;
+}
+
+.nav-header ul{
+    display: flex;
+    gap: 60px;
+}
+
+.nav-header a{
+    list-style: none;
+    font-family: var(--font-primary);
+    font-size: var(--size-subtitle);
+    color: var(--cor-primary);
+}
+
+.nav-header a:hover{
+    color: var(--cor-tertiaty);
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-image{
+    width: 380px;
+    height: 566px;
+    padding-top: 90px;
+}
+
+section{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 70px 70px 0px 0px;
+    width: 728px;
+}
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-primary);
+    color: var(--cor-primary);
+    width: 593px;
+    height: 791px;
+    padding: 44px 68px 20px 68px;
+}
+
+section span{
+    color: var(--cor-tertiaty);
+}
+
+.div-01{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    gap: 20px;
+}
+.div-01-icon{
+    width: 79px;
+    height: 69px;
+}
+
+.div-02{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 25px;
+}
+.div-02-icon{
+    width: 79px;
+    height: 102px;
+}
+
+.div-03{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 470px;
+}
+.div-03-icon{
+    width: 102px;
+    height: 102px;
+}
+
+.div-04{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+    padding-left: 25px;
+}
+.div-04-icon{
+    width: 72px;
+    height: 87px;
+}
+
+.btn{
+    padding-left: 25px;
+}
+
+button{
+    background-color: var(--cor-secondary);
+    color: var(--cor-background);
+    font-family: var(--font-primary);
+    font-size: var(--size-subtitle);
+    padding: 8px 70px;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: var(--cor-tertiaty);
+    color: var(--cor-neutral-white);
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+footer div{
+    display: flex;
+    background-color: #152E5F;
+    justify-content: center;
+}
+
+footer div p{
+    color: var(--cor-background);
+    padding: 20px 0;
+    font-family: var(--font-secondary);
+}
