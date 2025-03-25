@@ -6,5 +6,24 @@
 }
 
 :root{
-    
+    --cor-lavender-pink: #F2A8D1;
+    --cor-blush: #E4698D;
+    --cor-dark-magenta: #8C2C86;
+    --cor-eminence: #60337E;
+    --cor-delf-blue: #343A75;
+    --cor-ultra-violet: #5C629C;
+    --cor-honolulu-blue: #1074A8;
+    --cor-moondtone: #4FADC6;
+    --cor-tiffany-blue: #7DDDDC;
+    --cor-background: #CBE7EE;
+
+    --font-primary: "Lemon", serif;    
+    --font-secondary: "Montserrat", sans-serif;
+
+    --size-title: 32px;
+    --size-subtitle: 20px;
+    --size-paragraph: 16px;
+    --size-font-logo: 24px;
+    --size-paragraph-secondary: 14px;
+
 }
